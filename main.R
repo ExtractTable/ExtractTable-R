@@ -42,7 +42,7 @@ proces_file <- function(api_key, filepath) {
 }
 
 
-## Function to perform complete all tables from file sent
+## Function to extract all tables from the input file
 ExtractTable <- function(filepath, api_key) {
   server_response <- proces_file(api_key, filepath)
   parsed_resp = parseResponse(server_response)

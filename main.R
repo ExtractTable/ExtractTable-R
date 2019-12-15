@@ -36,7 +36,7 @@ proces_file <- function(api_key, filepath) {
     POST(
       url = trigger_endpoint,
       add_headers(`Content-Type`="multipart/form-data", `x-api-key` = api_key),
-      body = list(input = upload_file(filepath), dup_check=TRUE)
+      body = list(input = upload_file(filepath))
     )
   )
 }

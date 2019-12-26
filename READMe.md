@@ -105,5 +105,6 @@ input_location = LOCATION_OF_YOUR_INPUT_IMAGE_HERE
 # Trigger the job for processing and get results as an array of dataframes
 # Each data frame represents one table
 results <- ExtractTable(api_key = api_key, filepath = input_location)
+```
 
 *Thanks to one of our beloved user, Roeland van der Molen (lmconsultants.nl), supported us with the initial R code which motivated us to put efforts in this write up*

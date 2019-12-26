@@ -49,7 +49,7 @@ proces_file <- function(api_key, filepath) {
 }
 ```
 
-## Function to perform complete all tables from file sent
+## Function to extract tables from the input file
 ```r
 ExtractTable <- function(filepath, api_key) {
   server_response <- proces_file(api_key, filepath)

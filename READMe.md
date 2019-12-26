@@ -93,14 +93,14 @@ ExtractTable <- function(filepath, api_key) {
 # Usage
 ```r
 ## Intialize valid API key received from https://extracttable.com
-api_key = "6PZnrX3PhPkxE6PU8Uejaf7z3UBfzwPmmnDrnZ30"
+api_key = YOUR_VALID_API_KEY_HERE
 
 # Validate or check credits of the API key
 credits <- check_credits(api_key = api_key)$usage
 credits
 
 # Input location
-input_location = "C:/Users/tittu/Downloads/xx2.png"
+input_location = LOCATION_OF_YOUR_INPUT_IMAGE_HERE
 
 # Trigger the job for processing and get results as an array of dataframes
 # Each data frame represents one table
